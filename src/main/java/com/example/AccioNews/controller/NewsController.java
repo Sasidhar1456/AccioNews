@@ -17,7 +17,8 @@ public class NewsController{
     NewsService newsService;
 
     @GetMapping("/country")
-    public NewsResponse getNewsByCountry (@RequestParam("country") String country,@RequestParam("api-key") String apikey) {
-        return newsService.getNewsByCountry(country, apikey);
+    public NewsResponse getNewsByCountry(@RequestParam("country") String country) {
+        return newsService.getNewsByCountry(country);
     }
+
 }
