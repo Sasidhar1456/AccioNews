@@ -36,6 +36,9 @@ public class SavedNews {
     @Column(name = "url_to_image")
     private String urlToImage;
 
+    @Column(name = "content", columnDefinition = "TEXT")
+    private String content;
+
     @ManyToOne
     @JoinColumn(name="user_id", referencedColumnName = "id")
     private User user;

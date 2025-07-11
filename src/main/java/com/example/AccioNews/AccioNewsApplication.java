@@ -9,5 +9,5 @@ public class AccioNewsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AccioNewsApplication.class, args);
 	}
-
+	
 }

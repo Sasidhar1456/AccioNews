@@ -11,13 +11,13 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class ArticleResponse {
+public class UserRequestDto {
 
-    String author;
-    String title;
-    String url;
-    String urlToImage;
-    String content;
-    Boolean isSaved;
+    
+    private String userName;
+    private String password;
+    private String email;
+    private String phoneNumber;
 
+    
 }
