@@ -15,7 +15,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://short-news-rrqo.onrender.com")
 @RestController
 @RequestMapping("/saved-news/v1")
 public class SavedNewsController {

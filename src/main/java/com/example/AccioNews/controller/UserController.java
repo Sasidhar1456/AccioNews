@@ -16,7 +16,7 @@ import com.example.AccioNews.service.UserService;
 
 import org.springframework.web.bind.annotation.RequestBody;
 
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://short-news-rrqo.onrender.com")
 @RestController
 @RequestMapping("user/v1")
 public class UserController {
