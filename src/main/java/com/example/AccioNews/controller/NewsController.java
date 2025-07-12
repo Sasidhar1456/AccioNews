@@ -13,7 +13,7 @@ import com.example.AccioNews.service.NewsService;
 
 import jakarta.servlet.http.HttpServletRequest;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/v1/news")
 public class NewsController{
